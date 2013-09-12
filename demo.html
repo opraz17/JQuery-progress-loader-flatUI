@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Jquery Percentage Loader Flat Style</title>
+
+<link rel="stylesheet" type="text/css" href="style/style.css">
+
+<script type="text/javascript" src="js/1.6.4.js"></script>
+
+
+
+</head>
+<body>
+<div class="header">
+	<div class="header-title">Jquery Simple Loader Flat Style</div>
+	<div class="header-subtitle">Jquery Simple Loader Flat Style</div>
+</div> 
+
+<div id="skill-wrapper">
+	<div class="skill-box">
+	   <div class="skill-title"><center>SKILLS</center></div>
+	   <div class="skill-desc-first">Web development</div>
+	   <div class="grey-bar">
+	   	<div class="progress prog-wdev-one"></div>
+	   </div>
+	   <div class="skill-desc">Web Design</div>
+	   <div class="grey-bar">
+	   	<div class="progress prog-wd-one"></div>
+	   </div>
+	   <div class="skill-desc">Graphic Design</div>
+	   <div class="grey-bar">
+	   	<div class="progress prog-gd-one"></div>
+	   </div>
+	</div>
+
+	<div class="skill-box">
+	   <div class="skill-title"><center>SKILLS</center></div>
+	   <div class="skill-desc-first">Web development</div>
+	   <div class="grey-bar">
+	   	<div class="progress prog-wdev-two"></div>
+	   </div>
+	   <div class="skill-desc">Web Design</div>
+	   <div class="grey-bar">
+	   	<div class="progress prog-wd-two"></div>
+	   </div>
+	   <div class="skill-desc">Graphic Design</div>
+	   <div class="grey-bar">
+	   	<div class="progress prog-gd-two"></div>
+	   </div>
+	   <div id="runbutton-one" class="runbutton">RUN IT!</div>
+	</div>
+
+	<div class="skill-box ">
+	   <div class="skill-title"><center>SKILLS</center></div>
+	   <div class="skill-desc-first">Web development</div>
+	   <div class="grey-bar">
+	   	<div class="progress prog-wdev-1"></div>
+	   </div>
+	   <div class="skill-desc">Web Design</div>
+	   <div class="grey-bar">
+	   	<div class="progress prog-wd-1"></div>
+	   </div>
+	   <div class="skill-desc">Graphic Design</div>
+	   <div class="grey-bar">
+	   	<div class="progress prog-gd-1"></div>
+	   </div>
+	</div>
+
+	<div class="skill-box">
+	   <div class="skill-title"><center>SKILLS</center></div>
+	   <div class="skill-desc-first">Web development</div>
+	   <div class="grey-bar">
+	   	<div class="progress prog-wdev-1"></div>
+	   </div>
+	   <div class="skill-desc">Web Design</div>
+	   <div class="grey-bar">
+	   	<div class="progress prog-wd-1"></div>
+	   </div>
+	   <div class="skill-desc">Graphic Design</div>
+	   <div class="grey-bar">
+	   	<div class="progress prog-gd-1"></div>
+	   </div>
+	</div>
+</div>
+<div id="footer">
+</div>
+
+
+
+<script type="text/javascript">
+	
+	$( "#runbutton-one" ).click(function() {
+    $(".prog-wdev-two").animate({"width": "210px"}, 5000);
+    $(".prog-wd-two").animate({"width": "200px"}, 5000);
+    $(".prog-gd-two").animate({"width": "160px"}, 5000);
+	});
+	
+	$(document).ready(function() {
+    $(".prog-wdev-one").animate({"width": "210px"}, 5000);
+    $(".prog-wd-one").animate({"width": "200px"}, 5000);
+    $(".prog-gd-one").animate({"width": "160px"}, 5000);
+	});
+</script>
+
+</body>
